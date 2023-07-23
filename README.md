@@ -25,11 +25,15 @@ SHIFT instruction performs a logical shift to the left on the content of specifi
 
 ### Registers
 
-%r0 - zero register (normally used for accessing first memory cell); \
-[%r1, %r3] - general purpose registers; \ 
-%temp0 - used for storing temporary values (shift operation, stores the number of bits to be shifted); \ 
-%pc - program counter; \ 
-%ir - instruction register; \
+%r0 - zero register (normally used for accessing first memory cell);
+
+[%r1, %r3] - general purpose registers;
+
+%temp0 - used for storing temporary values (shift operation, stores the number of bits to be shifted); 
+
+%pc - program counter;
+
+%ir - instruction register;
 
 *All registers are 8 bits long except %ir, which is 9 bits long.  
 
