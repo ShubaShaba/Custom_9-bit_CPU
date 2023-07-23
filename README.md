@@ -47,7 +47,7 @@ SHIFT instruction performs a logical shift to the left on the content of specifi
 
 ### Memory
 
-#### Type
+#### Type:
 
 32 x 9 RAM
 
